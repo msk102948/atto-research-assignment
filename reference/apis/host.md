@@ -2,13 +2,13 @@
 
 ## Creating a new host
 
-{% swagger baseUrl="" method="post" path="/host" summary="Create host." %}
+{% swagger baseUrl="" method="post" path="/host" summary="새 호스트 생성" %}
 {% swagger-description %}
-Creates a new host.
+새 호스트 생성
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="name" required="true" type="string" %}
-The name of the host
+ㅗㅡㄴㅇㅎㅇㅇㄹ
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="ip" required="true" type="string" %}

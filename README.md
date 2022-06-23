@@ -1,3 +1,5 @@
 # APIs
 
-https://msk102948.gitbook.io/atto-research-assignment-1/
+{% content-ref url="reference/api-reference/" %}
+[api-reference](reference/api-reference/)
+{% endcontent-ref %}

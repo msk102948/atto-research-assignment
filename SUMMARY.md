@@ -1,8 +1,8 @@
 # Table of contents
 
-* [atto-research-assignment API](README.md)
+* [APIs](README.md)
 
 ## Reference
 
-* [APIs](reference/apis/README.md)
-  * [Host](reference/apis/host.md)
+* [API Reference](reference/api-reference/README.md)
+  * [Host](reference/api-reference/host.md)

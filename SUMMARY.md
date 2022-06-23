@@ -6,4 +6,3 @@
 
 * [APIs](reference/apis/README.md)
   * [Host](reference/apis/host.md)
-  * [Users](reference/apis/users.md)

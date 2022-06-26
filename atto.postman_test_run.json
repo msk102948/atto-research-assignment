@@ -1,0 +1,238 @@
+{
+	"id": "12a5d73a-067e-4e99-b137-978194979947",
+	"name": "atto",
+	"timestamp": "2022-06-26T15:39:32.752Z",
+	"collection_id": "0-4e8f0ca7-4552-4c1e-9feb-02961d310475",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2c6fdf43-168d-4650-8a37-f0a800e94e60",
+			"name": "호스트 생성",
+			"url": "http://localhost:8080/host",
+			"time": 758,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				758
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1a2fbc6c-eed2-4b88-b8f9-aa970f268036",
+			"name": "호스트 수정",
+			"url": "http://localhost:8080/host/testName",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				122
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "033808ed-136c-4e99-94d6-80d241749abd",
+			"name": "호스트 수정 null 상황",
+			"url": "http://localhost:8080/host/updateName",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				46
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "760a2edb-625c-4d96-a618-2a42805af2ee",
+			"name": "호스트 추가 생성",
+			"url": "http://localhost:8080/host",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				63
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40e8b38e-9dd5-45ce-82f8-6baa985c52d0",
+			"name": "호스트 수정 unique 예외",
+			"url": "http://localhost:8080/host/updateName",
+			"time": 103,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				103
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b12b0ca2-dba4-4ecd-9f83-cd494a7de5b4",
+			"name": "호스트 삭제",
+			"url": "http://localhost:8080/host/testName",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				74
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "63bd6eab-30de-45ac-b616-f6880880f897",
+			"name": "호스트 삭제 Null 예외",
+			"url": "http://localhost:8080/host/dummy",
+			"time": 41,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				41
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a913606a-39c9-48cc-9168-c641541a2307",
+			"name": "호스트 조회 Null 예외",
+			"url": "http://localhost:8080/host/dummy",
+			"time": 51,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				51
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7ff3440a-68f1-4b30-81c1-00bfc22ab139",
+			"name": "호스트 조회",
+			"url": "http://localhost:8080/host/updateName",
+			"time": 1102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1102
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "843644ab-543b-48a3-a1b2-48ba1e4c595a",
+			"name": "호스트 전체 조회",
+			"url": "http://localhost:8080/hosts",
+			"time": 1102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1102
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3462,
+	"collection": {
+		"requests": [
+			{
+				"id": "2c6fdf43-168d-4650-8a37-f0a800e94e60",
+				"method": "POST"
+			},
+			{
+				"id": "1a2fbc6c-eed2-4b88-b8f9-aa970f268036",
+				"method": "PUT"
+			},
+			{
+				"id": "033808ed-136c-4e99-94d6-80d241749abd",
+				"method": "PUT"
+			},
+			{
+				"id": "760a2edb-625c-4d96-a618-2a42805af2ee",
+				"method": "POST"
+			},
+			{
+				"id": "40e8b38e-9dd5-45ce-82f8-6baa985c52d0",
+				"method": "PUT"
+			},
+			{
+				"id": "b12b0ca2-dba4-4ecd-9f83-cd494a7de5b4",
+				"method": "DELETE"
+			},
+			{
+				"id": "63bd6eab-30de-45ac-b616-f6880880f897",
+				"method": "DELETE"
+			},
+			{
+				"id": "a913606a-39c9-48cc-9168-c641541a2307",
+				"method": "GET"
+			},
+			{
+				"id": "7ff3440a-68f1-4b30-81c1-00bfc22ab139",
+				"method": "GET"
+			},
+			{
+				"id": "843644ab-543b-48a3-a1b2-48ba1e4c595a",
+				"method": "GET"
+			}
+		]
+	}
+}

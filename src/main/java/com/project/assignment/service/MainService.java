@@ -55,6 +55,11 @@ public class MainService {
             host.setRecentAlive(recentAliveAt);
         }
 
+        // 6/26 이후 추가한 내용입니다.
+        if(isAlive){
+            host.setRecentAlive(null);
+        }
+
         GetHostRes getHostRes = new GetHostRes(host, isAlive);
 
         return getHostRes;
@@ -87,3 +92,4 @@ public class MainService {
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }
+
